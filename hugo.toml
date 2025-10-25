@@ -46,15 +46,20 @@ style = "github-dark"
 
 # Social links
 [[params.social]]
+  name = "Linkedin"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 1
+  url = "https://linkedin.com/in/guilhermealbm"
+[[params.social]]
   name = "Github"
   icon = "fa-brands fa-github fa-2x"
   weight = 1
   url = "https://github.com/guilhermealbm/"
 [[params.social]]
-  name = "Twitter"
-  icon = "fa-brands fa-x-twitter fa-2x"
+  name = "Bluesky"
+  icon = "fa-brands fa-bluesky fa-2x"
   weight = 3
-  url = "https://twitter.com/guilhermealbm/"
+  url = "https://bsky.app/profile/guilhermealbm.bsky.social"
 
 # Menu links
 [[menu.main]]

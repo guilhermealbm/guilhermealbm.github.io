@@ -11,4 +11,8 @@ These days I focus mostly on Android TV, Kotlin, and Jetpack Compose. I like des
 Outside of work, I enjoy coffee making, running, and experimenting with small side projects.  
 
 You can find me here:  
-[LinkedIn](https://linkedin.com/in/guilhermealbm)
+- [Bluesky](https://bsky.app/profile/guilhermealbm.bsky.social)
+
+- [Github](https://github.com/guilhermealbm/)
+
+- [LinkedIn](https://linkedin.com/in/guilhermealbm)
