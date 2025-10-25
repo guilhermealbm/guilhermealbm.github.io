@@ -20,7 +20,7 @@ style = "github-dark"
   info = "Android Software Engineer"
   description = "Guilherme's personal website"
   keywords = "blog,developer,personal"
-  avatarurl = "images/avatar.jpg"
+  avatarurl = "https://avatars.githubusercontent.com/u/42358828"
   #gravatar = "contact@guilhermealbm.com"
 
   faviconSVG = "/img/favicon.svg"
