@@ -75,3 +75,7 @@ style = "github-dark"
   name = "CV"
   weight = 2
   url = "https://github.com/guilhermealbm/guilhermealbm.github.io/raw/master/static/guilherme_miranda_cv.pdf"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
