@@ -65,3 +65,8 @@ style = "github-dark"
   name = "About"
   weight = 2
   url = "about/"
+
+[[menu.main]]
+  name = "CV"
+  weight = 2
+  url = "https://github.com/guilhermealbm/guilhermealbm.github.io/raw/master/static/guilherme_miranda_cv.pdf"
