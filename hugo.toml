@@ -74,7 +74,7 @@ style = "github-dark"
 [[menu.main]]
   name = "CV"
   weight = 2
-  url = "https://github.com/guilhermealbm/guilhermealbm.github.io/raw/main/static/guilherme_miranda_cv.pdf"
+  url = "https://raw.githubusercontent.com/guilhermealbm/guilhermealbm.github.io/refs/heads/main/static/guilherme_miranda_cv.pdf"
 
 [caches]
   [caches.images]
