@@ -3,6 +3,9 @@ title = "Guilherme Miranda"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
+enableRobotsTXT = true
+enableGitInfo = true
+disableKinds = ["taxonomy", "term"]
 
 
 [pagination]
