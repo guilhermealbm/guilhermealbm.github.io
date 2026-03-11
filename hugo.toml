@@ -41,6 +41,9 @@ style = "github-dark"
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
 
+[params.vercel_analytics]
+  enable = true
+
 [taxonomies]
   category = "categories"
   series = "series"
