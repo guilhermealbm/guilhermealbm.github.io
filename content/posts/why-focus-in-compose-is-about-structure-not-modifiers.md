@@ -2,6 +2,7 @@
 date = '2026-01-25'
 draft = false
 title = 'Why Focus in Compose Is About Structure, Not Modifiers'
+categories = ['Android']
 +++
 #### and/or: the most underrated interaction mechanism on Android is becoming important
 

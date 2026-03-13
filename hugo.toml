@@ -5,7 +5,6 @@ languagecode = "en"
 defaultcontentlanguage = "en"
 enableRobotsTXT = true
 enableGitInfo = true
-disableKinds = ["taxonomy", "term"]
 
 
 [pagination]
@@ -37,7 +36,7 @@ style = "github-dark"
   colorScheme = "auto"
   hidecolorschemetoggle = false
 
-  # customCSS = ["css/custom.css"]
+  customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
 
@@ -45,9 +44,6 @@ style = "github-dark"
 
 [taxonomies]
   category = "categories"
-  series = "series"
-  tag = "tags"
-  author = "authors"
 
 # Social links
 [[params.social]]
