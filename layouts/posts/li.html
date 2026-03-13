@@ -1,0 +1,13 @@
+<li>
+  <span class="date">{{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
+  <div class="post-summary">
+    <a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
+    {{ with .GetTerms "categories" }}
+      <div class="post-categories">
+        {{ range . }}
+          <a class="post-category" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</li>

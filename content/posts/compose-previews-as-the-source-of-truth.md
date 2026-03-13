@@ -2,6 +2,7 @@
 date = '2026-02-17'
 draft = false
 title = 'Compose Previews as the Source of Truth'
+categories = ['Android']
 +++
 #### and/or: less setup, less repetition, better IDE workflow
 
