@@ -3,6 +3,7 @@ date = '2026-03-11'
 draft = false
 title = 'Reviving my old Kindle'
 categories = ['Projects']
+languages = ['English']
 +++
 #### and/or: A small project that reminded me how I learned to build things
 

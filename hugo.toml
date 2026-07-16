@@ -44,6 +44,7 @@ style = "github-dark"
 
 [taxonomies]
   category = "categories"
+  language = "languages"
 
 # Social links
 [[params.social]]
