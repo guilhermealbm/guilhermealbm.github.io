@@ -2,10 +2,15 @@
   <span class="date">{{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
   <div class="post-summary">
     <a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
-    {{ with .GetTerms "categories" }}
+    {{ $categories := .GetTerms "categories" }}
+    {{ $languages := .GetTerms "languages" }}
+    {{ if or $categories $languages }}
       <div class="post-categories">
-        {{ range . }}
+        {{ range $categories }}
           <a class="post-category" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        {{ end }}
+        {{ range $languages }}
+          <a class="post-language" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
         {{ end }}
       </div>
     {{ end }}

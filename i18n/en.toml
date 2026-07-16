@@ -1,0 +1,6 @@
+# The theme ships i18n keys for its built-in taxonomies (categories, tags, series)
+# but not for custom ones. Without this, taxonomy.html renders a bare ": English"
+# heading, since it prefixes the term with the i18n lookup of the taxonomy name.
+[languages]
+one = "language"
+other = "languages"

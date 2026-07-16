@@ -6,6 +6,11 @@ defaultcontentlanguage = "en"
 enableRobotsTXT = true
 enableGitInfo = true
 
+# Without this, the 'Português' language term builds to /languages/português/,
+# which percent-encodes to /languages/portugu%C3%AAs/ when linked or shared.
+# No existing path contains accents, so this only affects the new term.
+removePathAccents = true
+
 
 [pagination]
 pagerSize = 20
@@ -44,6 +49,7 @@ style = "github-dark"
 
 [taxonomies]
   category = "categories"
+  language = "languages"
 
 # Social links
 [[params.social]]

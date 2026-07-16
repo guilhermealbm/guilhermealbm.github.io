@@ -21,7 +21,8 @@
   gap: 0.8rem;
 }
 
-.list ul:not(.pagination) li .post-category {
+.list ul:not(.pagination) li .post-category,
+.list ul:not(.pagination) li .post-language {
   display: inline-flex;
   align-items: center;
   padding: 0.25rem 0.8rem;
@@ -37,9 +38,24 @@
   white-space: nowrap;
 }
 
+/* Language reads as a secondary axis to category: outlined rather than filled. */
+.list ul:not(.pagination) li .post-language {
+  background: none;
+  border-style: dashed;
+  font-weight: 400;
+  opacity: 0.75;
+}
+
 .list ul:not(.pagination) li .post-category:hover,
-.list ul:not(.pagination) li .post-category:focus {
+.list ul:not(.pagination) li .post-category:focus,
+.list ul:not(.pagination) li .post-language:hover,
+.list ul:not(.pagination) li .post-language:focus {
   text-decoration: none;
+}
+
+.list ul:not(.pagination) li .post-language:hover,
+.list ul:not(.pagination) li .post-language:focus {
+  opacity: 1;
 }
 
 @media only screen and (max-width: 768px) {
