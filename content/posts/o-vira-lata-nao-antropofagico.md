@@ -2,7 +2,7 @@
 date = '2026-07-16'
 draft = false
 title = 'O vira-lata não-antropofágico'
-categories = ['Futebol']
+categories = ['Football']
 languages = ['Português']
 +++
 #### e/ou: eu tenho certeza que o Casemiro é a reencarnação do Olavo Bilac
